@@ -1,6 +1,29 @@
 import React, { useState } from 'react';
 
 export default class LoginComponent extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {date: new Date()};
+  }
+
+  componentDidMount() {
+    this.timerID = setInterval(
+      () => this.tick(),
+      1000
+    );
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timerID);
+  }
+
+  tick() {
+    this.setState({
+      date: new Date()
+    });
+  }
+
   render() {
     return (
       <div className="login-wrapper">
@@ -18,6 +41,7 @@ export default class LoginComponent extends React.Component {
           <button type="submit">Submit</button>
         </div>
       </form>
+      <p>It is {this.state.date.toLocaleTimeString()}.</p>
     </div>
     );
   }
