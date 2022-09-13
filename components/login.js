@@ -1,11 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 export default class LoginComponent extends React.Component {
   render() {
     return (
-      <div>
-        <p>Login page.</p>
-      </div>
+      <div className="login-wrapper">
+      <h1>Please Log In</h1>
+      <form>
+        <label>
+          <p>Username</p>
+          <input type="text" />
+        </label>
+        <label>
+          <p>Password</p>
+          <input type="password" />
+        </label>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
     );
   }
 }
