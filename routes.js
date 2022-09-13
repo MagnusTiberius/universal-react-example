@@ -1,6 +1,7 @@
 import AppComponent from './components/app';
 import IndexComponent from './components/index';
 import AboutComponent from './components/about';
+import LoginComponent from './components/login';
 
 const routes = {
   path: '',
@@ -13,6 +14,10 @@ const routes = {
     {
       path: '/about',
       component: AboutComponent
+    },
+    {
+      path: '/login',
+      component: LoginComponent
     }
   ]
 }
