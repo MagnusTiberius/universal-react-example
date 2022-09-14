@@ -5,6 +5,9 @@ export default class AboutComponent extends React.Component {
     return (
       <div>
         <p>A little bit about me.</p>
+        <p>
+          <a href="http://scipio.link:4000/">http://scipio.link:4000/</a>
+        </p>
       </div>
     );
   }
