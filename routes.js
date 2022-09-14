@@ -1,7 +1,9 @@
 import AppComponent from './components/app';
 import IndexComponent from './components/index';
+import SearchComponent from './components/search';
 import AboutComponent from './components/about';
 import LoginComponent from './components/login';
+import RegistrationComponent from './components/register';
 
 const routes = {
   path: '',
@@ -18,6 +20,14 @@ const routes = {
     {
       path: '/login',
       component: LoginComponent
+    },
+    {
+      path: '/register',
+      component: RegistrationComponent
+    },
+    {
+      path: '/search',
+      component: SearchComponent
     }
   ]
 }
