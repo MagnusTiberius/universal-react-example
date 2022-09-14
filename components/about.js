@@ -8,6 +8,9 @@ export default class AboutComponent extends React.Component {
         <p>
           <a href="http://scipio.link:4000/">http://scipio.link:4000/</a>
         </p>
+        <p>
+          <a href="https://github.com/MagnusTiberius/universal-react-example">https://github.com/MagnusTiberius/universal-react-example</a>
+        </p>
       </div>
     );
   }
