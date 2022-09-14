@@ -1,6 +1,9 @@
 # universal-react-example
 An example Universal ReactJS application
 
+Demo server is at http://scipio.link:4000/
+
+
 Written for 24ways. [Go read the blog post](https://24ways.org/2015/universal-react/) :)
 
 ## Install
