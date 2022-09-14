@@ -41,5 +41,5 @@ app.listen(3003, 'localhost', function(err) {
     console.log(err);
     return;
   }
-  console.log('Listening at http://scipio.link:3003');
+  console.log('Listening at http://localhost:3003');
 });
