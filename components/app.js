@@ -5,7 +5,7 @@ export default class AppComponent extends React.Component {
   render() {
     return (
       <div>
-        <h2>Profile App</h2>
+        <h2>Pool League of The USA</h2>
         <ul>
           <li><Link to='/'>Home</Link></li>
           <li><Link to='/search'>Search</Link></li>
