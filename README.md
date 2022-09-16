@@ -1,9 +1,6 @@
 # universal-react-example
 An example Universal ReactJS application
 
-Demo server is at http://scipio.link:4000/
-
-
 Written for 24ways. [Go read the blog post](https://24ways.org/2015/universal-react/) :)
 
 ## Install
@@ -15,3 +12,21 @@ $ npm run build
 $ npm start
 $ open http://localhost:3003
 ```
+
+Demo server is at http://scipio.link:4000/
+
+React Bootstrap
+https://react-bootstrap.github.io/getting-started/introduction
+
+Generator code example:
+https://mui.com/material-ui/getting-started/example-projects/
+https://divjoy.com/
+https://app.scaffoldhub.io/
+https://www.creative-tim.com/learning-lab/react/overview/material-kit/
+
+Github:
+https://github.com/TarikHuber/react-most-wanted
+
+npm:
+    https://mui.com/core/
+    npm install @mui/material @emotion/react @emotion/styled  
