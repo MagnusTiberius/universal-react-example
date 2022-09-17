@@ -11,7 +11,7 @@ export default class Square extends React.Component {
     render() {
       return (
         <button
-          className="square"
+          className="rcorners1"
           onClick={() => this.setState({value: 'X'})}
         >
           {this.state.value}
